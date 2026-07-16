@@ -24,7 +24,7 @@ while True:
     print("Downloading updates...")
 
     subprocess.run(
-        ["sudo", "pacman", "-Syuw", "--noconfirm"],
+        ["sudo", "pacman", "-Syyu", "--noconfirm"],
         check=False,
     )
 
